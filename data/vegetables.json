@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Tomato",
+    "emoji": "🍅",
+    "plantedDate": "2025-04-15",
+    "sun": "Full Sun",
+    "water": "Medium",
+    "notes": "Cherry variety, doing great!"
+  },
+  {
+    "id": 2,
+    "name": "Carrot",
+    "emoji": "🥕",
+    "plantedDate": "2025-03-20",
+    "sun": "Partial Sun",
+    "water": "Low",
+    "notes": "Needs thinning"
+  }
+]
