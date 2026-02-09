@@ -6,7 +6,11 @@
     "plantedDate": "2025-04-15",
     "sun": "Full Sun",
     "water": "Medium",
+    "stage": "Seedling",
+    "lastWatered": "2026-02-06",
+    "harvestEstimate": "2026-03-15",
     "notes": "Cherry variety, doing great!"
+    
   },
   {
     "id": 2,
@@ -15,6 +19,9 @@
     "plantedDate": "2025-03-20",
     "sun": "Partial Sun",
     "water": "Low",
+    "stage": "Seedling",
+    "lastWatered": "2026-02-06",
+    "harvestEstimate": "2026-03-15",
     "notes": "Needs thinning"
   }
 ]
