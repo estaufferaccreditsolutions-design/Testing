@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>My Garden 🌱</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<h1>🌼 My Vegetable Garden</h1>
-<div id="garden" class="card-grid"></div>
+  <nav class="nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="garden.html">🌱 Garden</a>
+  </nav>
 
-<script src="script.js"></script>
+  <header class="hero">
+    <h1>🌼 My Vegetable Garden</h1>
+    <p>Tracking what I grow, when I water, and when it’s harvest time.</p>
+  </header>
+
+  <main>
+
+    <section class="stats">
+      <h2>🌱 Garden at a Glance</h2>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <h3 id="totalVeggies">0</h3>
+          <p>Vegetables Planted</p>
+        </div>
+
+        <div class="stat-card">
+          <h3 id="needsWater">0</h3>
+          <p>Need Watering</p>
+        </div>
+
+        <div class="stat-card">
+          <h3 id="readyHarvest">0</h3>
+          <p>Ready to Harvest</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent">
+      <h2>🥕 Recently Added</h2>
+      <div id="recentVeggies" class="card-grid"></div>
+    </section>
+
+    <section class="cta">
+      <a class="button" href="garden.html">
+        View Full Garden →
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>🌿 Garden Tracker built with GitHub Pages</p>
+  </footer>
+
+  <script src="home.js"></script>
 </body>
 </html>
