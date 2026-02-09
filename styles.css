@@ -25,3 +25,57 @@ body {
 .card h2 {
   margin: 0;
 }
+.nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #2f6f3e;
+}
+
+.hero {
+  margin-bottom: 3rem;
+}
+
+.stats {
+  margin-bottom: 3rem;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.stat-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.recent {
+  margin-bottom: 3rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #2f6f3e;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  opacity: 0.6;
+}
+
