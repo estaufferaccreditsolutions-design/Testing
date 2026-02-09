@@ -1,13 +1,21 @@
-# 🌼 My Vegetable Garden
+# 🌼 Vegetable Garden Tracker
 
-I’m tracking my garden using a GitHub Pages site with data-driven veggie cards.
+This project tracks vegetables in a garden using a GitHub Pages website.
+Each vegetable is displayed as a stylized card with detailed growing info.
 
-👉 **View the live garden:**  
-https://yourusername.github.io/garden-site/
+👉 **View the live garden site:**  
+https://estaufferaccreditsolutions-design.github.io/Testing/
 
-## What I’m growing
-- 🍅 Tomatoes
-- 🥕 Carrots
-- 🥬 Lettuce
+## 🌱 Features
+- Data stored in JSON
+- Dynamic veggie cards rendered with JavaScript
+- Easily expandable for more plants, notes, and images
 
-_Data is stored in JSON and rendered with JavaScript._
+## 🧑‍🌾 Current Vegetables
+- 🍅 Tomato
+- 🥕 Carrot
+
+## 📸 Preview
+![Garden preview](assets/garden-preview.png)
+
+_Edit the garden data in `data/vegetables.json`._
