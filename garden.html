@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Garden 🌱</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="garden.html">🌱 Garden</a>
+  </nav>
+
+  <header class="hero">
+    <h1>🌱 Garden</h1>
+    <p>All the vegetables I’m currently growing.</p>
+  </header>
+
+  <main>
+    <div id="gardenGrid" class="card-grid"></div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modalOverlay" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal" class="close-btn">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="garden.js"></script>
+</body>
+</html>
