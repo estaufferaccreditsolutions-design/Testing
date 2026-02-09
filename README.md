@@ -1,15 +1,13 @@
-# Testing
-<table>
-  <tr>
-    <th>Plant</th>
-    <th>Variety</th>
-    <th>Date Seeded</th>
-    <th>Details</th>
-  </tr>
-  <tr>
-    <td>Carrot</td>
-    <td>Rainbow</td>
-    <td>Jan 30th, 2026</td>
-    <td>Sprouted</td>
-  </tr>
-</table>
+# 🌼 My Vegetable Garden
+
+I’m tracking my garden using a GitHub Pages site with data-driven veggie cards.
+
+👉 **View the live garden:**  
+https://yourusername.github.io/garden-site/
+
+## What I’m growing
+- 🍅 Tomatoes
+- 🥕 Carrots
+- 🥬 Lettuce
+
+_Data is stored in JSON and rendered with JavaScript._
