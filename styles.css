@@ -1,6 +1,6 @@
 body {
   font-family: system-ui, sans-serif;
-  background: #f6fff5;
+  background: #88a240;
   padding: 2rem;
 }
 
@@ -34,7 +34,7 @@ body {
 .nav a {
   text-decoration: none;
   font-weight: 600;
-  color: #2f6f3e;
+  color: #38470c;
 }
 
 .hero {
@@ -66,7 +66,7 @@ body {
 .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #2f6f3e;
+  background: #38470c;
   color: white;
   border-radius: 999px;
   text-decoration: none;
