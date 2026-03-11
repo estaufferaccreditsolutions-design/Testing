@@ -1,6 +1,48 @@
+:root {
+
+  /* Greys */
+  --dark-grey: #7D7C7C;
+  --light-grey: #E0E0E0;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  /* Blues */
+  --light-blue: #D4F2FF;
+  --blue-2: #84C9E8;
+  --blue-3: #449EC7;
+  --blue-4: #397E9E;
+
+  /* Pink / Purple */
+  --light-pink: #FFD6F7;
+  --pink: #FF99EC;
+  --purp-1: #A75CA0;
+  --purp-2: #73446B;
+
+  /* Yellow / Orange */
+  --yellow-1: #C73C3D;
+  --yellow-2: #F8B642;
+  --orange: #F5873D;
+
+  /* Reds */
+  --red-1: #F73639;
+  --red-2: #C73C3D;
+
+  /* Greens */
+  --light-green: #88A240;
+  --green-1: #C5D58A;
+  --green-2: #88A240;
+  --green-3: #657516;
+  --green-4: #38470C;
+
+  /* Earth */
+  --sand: #EBDDC5;
+  --dirt: #715B33;
+  --compost: #332917;
+
+}
 body {
   font-family: system-ui, sans-serif;
-  background: #88a240;
+  background: var(--light-green);
   padding: 2rem;
 }
 
@@ -11,7 +53,7 @@ body {
 }
 
 .card {
-  background: white;
+  background: var(--white);
   border-radius: 16px;
   padding: 1rem;
   box-shadow: 0 6px 12px rgba(0,0,0,0.08);
@@ -34,7 +76,7 @@ body {
 .nav a {
   text-decoration: none;
   font-weight: 600;
-  color: #38470c;
+  color: var(--green-4);
 }
 
 .hero {
@@ -52,7 +94,7 @@ body {
 }
 
 .stat-card {
-  background: #ffffff;
+  background: var(--white);
   border-radius: 14px;
   padding: 1.25rem;
   text-align: center;
@@ -66,8 +108,8 @@ body {
 .button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #38470c;
-  color: white;
+  background: var(--green-4);
+  color: var(--white);
   border-radius: 999px;
   text-decoration: none;
   font-weight: 600;
@@ -89,7 +131,7 @@ body {
 }
 
 .modal-content {
-  background: white;
+  background: var(--white);
   border-radius: 18px;
   padding: 1.5rem;
   max-width: 420px;
