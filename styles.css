@@ -61,7 +61,7 @@
 }
 body {
   font-family: system-ui, sans-serif;
-  background: var(--light-green);
+  background: var(--white);
   padding: var(--space-lg);
   max-width: 1100px;
   margin: auto;
